@@ -21,9 +21,8 @@ if ($row['username'] == $username AND $row['pass'] == $password)
 {
     session_start();
     $_SESSION['username'] = $row['username'];
-    $_SESSION['passwd'] = $row['passwd'];
+    $_SESSION['pass'] = $row['pass'];
 
-<<<<<<< HEAD
 $cek = mysqli_num_rows($login);
 if($cek > 0){
  
@@ -33,39 +32,25 @@ if($cek > 0){
  
 		$_SESSION['username'] = $username;
 		$_SESSION['role'] = "admin";
-
         header("location:home.php");
  
 	}else if($data['role']=="antap"){
 		
 		$_SESSION['username'] = $username;
 		$_SESSION['role'] = "antap";
-	
 		header("location:antap.php");
- 
-	
+ 	
 	}else if($data['role']=="siswa"){
 	
 		$_SESSION['username'] = $username;
 		$_SESSION['role'] = "siswa";
-		
 		header("location:siswa.php");
  
 	}else{
- 
-	
-		header("location:index.php?pesan=gagal");
-	}	
+    	header("location:index.php?pesan=gagal");
+	}
 }
-    else{
-    echo "<script>alert('Username atau Password Salah !!!');</script>";
-=======
-    header('location:index.php'); //jika login berhasil, maka ganti/letakkan halaman utamamu disini
-}else{
-    echo "<script>alert('Username atau Password Admin tidak benar !!!');</script>";
->>>>>>> d4e6443843908e878034462e60c3d423c42fc46d
-    echo "<script>location='login.php';</script>";
-  }
+}
 ?>
 </body>
 
