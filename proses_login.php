@@ -17,33 +17,23 @@ $password   = md5($_POST['pass']);
 $login  = mysqli_query($koneksi, "SELECT * FROM akun WHERE username = '$username' AND pass='$password'");
 $row    = mysqli_fetch_array($login);
 
-if ($row['username'] == $username AND $row['pass'] == $password)
-{
+if ($row['username'] == $username AND $row['pass'] == $password){
     session_start();
     $_SESSION['username'] = $row['username'];
     $_SESSION['pass'] = $row['pass'];
-
-$cek = mysqli_num_rows($login);
-if($cek > 0){
- 
-	$data = mysqli_fetch_assoc($login);
- 
-	if($data['role']=="admin"){
- 
-		$_SESSION['username'] = $username;
-		$_SESSION['role'] = "admin";
-        header("location:index.php");
- 
-	}else if($data['role']=="siswa"){
-	
-		$_SESSION['username'] = $username;
-		$_SESSION['role'] = "siswa";
-		header("location:siswa.php");
- 
-	}else{
-    	header("location:index.php");
-	}
-}
+    $cek = mysqli_num_rows($login);
+        if($cek > 0){
+	        $data = mysqli_fetch_assoc($login);
+	        if($data['role'] == "admin"){
+		        $_SESSION['role'] = "admin";
+                header("location:/admin/indexx.php");
+	        }else if($data['role']=="siswa"){
+                $_SESSION['role'] = "siswa";
+                header("location:siswa.php");
+	        }else{
+    	        header("location:indexx.php");
+	        }
+        }
 }
 
 ?>
