@@ -21,20 +21,20 @@ if ($row['username'] == $username AND $row['pass'] == $password){
     session_start();
     $_SESSION['username'] = $row['username'];
     $_SESSION['pass'] = $row['pass'];
+    $_SESSION['role'] = $row['role'];
     $cek = mysqli_num_rows($login);
-        if($cek > 0){
-	        $data = mysqli_fetch_assoc($login);
-	        if($data['role'] == "admin"){
-		        $_SESSION['role'] = "admin";
-                header("location:/admin/indexx.php");
-	        }else if($data['role']=="siswa"){
-                $_SESSION['role'] = "siswa";
-                header("location:siswa.php");
-	        }else{
-    	        header("location:indexx.php");
-	        }
-        }
+	
+    if($row['role'] == "admin"){
+	    $_SESSION['role'] = "admin";
+        header("location:/lattis38/admin/index.php");
+	}else if($row['role']=="siswa"){
+        $_SESSION['role'] = "siswa";
+        header("location:/lattis38/admin/siswa.php");
+	}else{
+    	header("location:home.php");
+	}
 }
+
 
 ?>
 </body>
