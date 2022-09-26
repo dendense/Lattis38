@@ -1,4 +1,17 @@
 <!DOCTYPE html>
+<?php
+include '../config.php';
+?>
+<?php 
+	session_start();
+
+	if($_SESSION['role'] == "admin"){
+		echo "";
+	}else{
+        header("location:home.php");
+    }
+ 
+?>
 <html>
 
 <head>
