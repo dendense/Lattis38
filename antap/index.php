@@ -1,5 +1,7 @@
 <DOCTYPE html>
 
+    <?php  session_start(); ?>
+
     <head>
         <title>Login</title>
         <link rel="stylesheet" href="../css/bootstrap.min.css">

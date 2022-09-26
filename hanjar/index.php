@@ -1,5 +1,6 @@
 <DOCTYPE html>
     <html>
+    <?php  session_start(); ?>
 
     <head>
         <title>Login</title>
