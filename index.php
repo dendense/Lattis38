@@ -17,14 +17,14 @@
                     $username   = $_SESSION['username'];
                     $loop   = mysqli_query($koneksi, 'SELECT * FROM akun');
                     $data = mysqli_fetch_array($loop);
-                    echo "Selamat Datang <b>",$data['name'],"</b><br/>";
+                    echo "Selamat Datang <b>",$data['nama'],"</b><br/>";
                     echo "<hr/><label class='h3'>Data User Account</label>";
             ?>
                 <table class="table table-stripped">
                     <thead>
                         <tr>
                             <th scope="col">No</th>
-                            <th scope="col">Name</th>
+                            <th scope="col">Nama</th>
                             <th scope="col">Username</th>
                             <th scope="col">Email</th>
                             <th scope="col">Role</th>
@@ -38,7 +38,7 @@
                     ?>
                     <tr>
                         <th scope="row"><?php echo $no++ ?></th>
-                        <td><?php echo $data['name'] ?></td>
+                        <td><?php echo $data['nama'] ?></td>
                         <td><?php echo $data['username'] ?></td>
                         <td><?php echo $data['email'] ?></td>
                         <td><?php echo $data['role'] ?></td>
