@@ -31,7 +31,7 @@
                         <th>Aksi</th>
                     </tr>
                     <?php
-                    include 'config.php';
+                    include '../config.php';
                     $data = mysqli_query($koneksi,"select * from antap");
                     while($d = mysqli_fetch_array($data)){
 ?>
@@ -42,7 +42,9 @@
                         <td><?php echo $d['nrp']; ?></td>
                         <td><?php echo $d['korp']; ?></td>
                         <td><?php echo $d['jabatan']; ?></td>
-                        <td><input type="button" value="View"><input type="button" value="Edit"></td>
+                        <td><a href="" class="btn btn-sm btn-primary" style="margin-right: 5px; width: 80px">Edit</a><a
+                                href="" class="btn btn-sm btn-primary" style="width: 80px">View</a>
+                        </td>
                     </tr>
                     <?php
                     }
@@ -50,5 +52,5 @@
 
 
                 </table>
-                <a href="dataantap.php" class="btn btn-success mt-2 w-100">Tambah Data</a>
+                <a href=" dataantap.php" class="btn btn-success mt-2 w-100">Tambah Data</a>
     </body>
