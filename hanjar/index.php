@@ -29,7 +29,7 @@
                         <th>file</th>
                     </tr>
                     <?php
-                    include 'config.php';
+                    include '../config.php';
                     $data = mysqli_query($koneksi,"select * from hanjar");
                     while($d = mysqli_fetch_array($data)){
 ?>

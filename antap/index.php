@@ -50,7 +50,10 @@
 
 
             </table>
-            <a href=" dataantap.php" class="btn btn-success mt-2 w-100">Tambah Data</a>
+            <div>
+                <a href="dataantap.php" class="btn btn-success mt-2">Tambah Data</a>
+                <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
+                <div>
 </body>
 
 </html>
