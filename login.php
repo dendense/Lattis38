@@ -21,6 +21,7 @@ include 'config.php';
                 <input class="w-100" type="password" name="pass" />
                 <input class="btn btn-success mt-3 w-100" type="submit" value="LOGIN">
                 <a href="register.php" class="btn btn-warning mt-2 w-100">REGISTER</a>
+                <a href="index.php" class="btn btn-primary mt-2 w-100">BACK</a>
             </form>
         </div>
     </div>

@@ -14,7 +14,9 @@
     <div class="container" style="margin-top : 200px" align="center">
         <div class="mt-5 rounded" style="width: 700px">
             <div class="mb-3 h3">Selamat Datang di SKADIK 501</div>
-            <?php session_start(); ?>
+            <?php session_start(); 
+            
+            ?>
             <a href="/lattis38/siswa" class="btn md btn-primary">Data Siswa</a>
             <a href="/lattis38/antap" class="btn md btn-primary">Data Antap</a>
             <a href="/lattis38/hanjar" class="btn md btn-primary">Data Hanjar</a>
