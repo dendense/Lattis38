@@ -32,14 +32,8 @@ if($cek > 0){
  
 		$_SESSION['username'] = $username;
 		$_SESSION['role'] = "admin";
-        header("location:home.php");
+        header("location:index.php");
  
-	}else if($data['role']=="antap"){
-		
-		$_SESSION['username'] = $username;
-		$_SESSION['role'] = "antap";
-		header("location:antap.php");
- 	
 	}else if($data['role']=="siswa"){
 	
 		$_SESSION['username'] = $username;
@@ -47,7 +41,7 @@ if($cek > 0){
 		header("location:siswa.php");
  
 	}else{
-    	header("location:index.php?pesan=gagal");
+    	header("location:index.php");
 	}
 }
 }
