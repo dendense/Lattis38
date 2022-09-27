@@ -2,7 +2,7 @@
 
 <head>
     <title>WELCOME</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>

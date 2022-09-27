@@ -6,7 +6,7 @@ include 'config.php';
 
 <head>
     <title>Login</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
 </head>
 
 <body>
