@@ -29,7 +29,7 @@
                         <th>file</th>
                     </tr>
                     <?php
-                    include 'config.php';
+                    include '../config.php';
                     $data = mysqli_query($koneksi,"select * from hanjar");
                     while($d = mysqli_fetch_array($data)){
 ?>
@@ -46,5 +46,8 @@
 
                 </table>
 
-                <a href="datahanjar.php" class="btn btn-success mt-2 w-100">Tambah Data</a>
+                <div>
+                    <a href="datahjanjar.php" class="btn btn-success mt-2">Tambah Data</a>
+                    <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
+                    <div>
     </body>

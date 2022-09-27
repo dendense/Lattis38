@@ -29,7 +29,7 @@ if ($row['username'] == $username AND $row['pass'] == $password){
         header("location:/lattis38/admin/index.php");
 	}else if($row['role']=="siswa"){
         $_SESSION['role'] = "siswa";
-        header("location:/lattis38/admin/siswa.php");
+        header("location:/lattis38/siswa/index.php");
 	}else{
     	header("location:home.php");
 	}

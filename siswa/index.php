@@ -1,5 +1,5 @@
 <?php
-include 'config.php';
+include '../config.php';
 ?>
 <?php 
 	session_start();
@@ -41,7 +41,7 @@ include 'config.php';
 
                 </tr>
                 <?php
-                    include 'config.php';
+                    include '../config.php';
                     $data = mysqli_query($koneksi,"select * from siswa");
                     while($d = mysqli_fetch_array($data)){
 ?>
@@ -53,7 +53,9 @@ include 'config.php';
                     <td><?php echo $d['sekolah']; ?></td>
                     <td><?php echo $d['jabatan']; ?></td>
                     <td><?php echo $d['korp']; ?></td>
-                    <td><input type="button" value="View"><input type="button" value="Edit"></td>
+                    <td><a href="" class="btn btn-sm btn-primary" style="margin-right: 5px; width: 80px">Edit</a><a
+                            href="/lattis38/siswa/tampil_siswa.php" class="btn btn-sm btn-primary"
+                            style="width: 80px">View</a></td>
                 </tr>
 
                 <?php
@@ -62,6 +64,9 @@ include 'config.php';
 
 
             </table>
-            <a href="datasiswa.php" class="btn btn-success mt-2 w-100">Tambah Data</a>
+            <div>
+                <a href="tambah_siswa.php" class="btn btn-success mt-2">Tambah Data</a>
+                <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
+                <div>
 
 </body>
