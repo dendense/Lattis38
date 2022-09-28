@@ -20,9 +20,9 @@
                 <label>Email</label>
                 <input class="mb-2 w-100" type="text" name="email" />
                 <label>Role</label>
-                <select type="text" name="roles" id="">
+                <select type="text" name="roles" class="mb-2 w-100">
                     <option value="Admin">Admin</option>
-                    <option value="siswa">Siswa</option>
+                    <option value="Siswa">Siswa</option>
                 </select>
 
 

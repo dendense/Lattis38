@@ -30,15 +30,15 @@
                     </tr>
                     <?php
                     include '../config.php';
-                    $data = mysqli_query($koneksi,"select * from hanjar");
-                    while($d = mysqli_fetch_array($data)){
+                    $query = mysqli_query($koneksi,"SELECT * FROM hanjar");
+                    while($data = mysqli_fetch_array($query)){
 ?>
                     <tr>
-                        <td><?php echo $d['id'];?></td>
-                        <td><?php echo $d['nokep']; ?></td>
-                        <td><?php echo $d['namasekolah']; ?></td>
-                        <td><?php echo $d['materi']; ?></td>
-                        <td><?php echo $d['file']; ?></td>
+                        <td><?php echo $data['id'];?></td>
+                        <td><?php echo $data['nokep']; ?></td>
+                        <td><?php echo $data['namasekolah']; ?></td>
+                        <td><?php echo $data['materi']; ?></td>
+                        <td><?php echo $data['file']; ?></td>
                     </tr>
                     <?php
                     }

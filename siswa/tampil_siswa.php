@@ -5,7 +5,7 @@ include '../config.php';
 <?php 
 	session_start();
 
-	if($_SESSION['role'] == "admin"){
+	if($_SESSION['roles'] == "admin"){
 		echo "";
 	}else{
         header("location:home.php");
