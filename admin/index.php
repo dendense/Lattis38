@@ -22,7 +22,7 @@ if($_SESSION['roles']==""){
             <div class="mb-3 h3">Selamat Datang di SKADIK 501, <?php echo $_SESSION['roles']?></div>
 
             <a href="/lattis38/siswa/data_siswa.php" class="btn md btn-primary">Data Siswa</a>
-            <a href="/lattis38/antap" class="btn md btn-primary">Data Antap</a>
+            <a href="/lattis38/antap/data_antap.php" class="btn md btn-primary">Data Antap</a>
             <a href="/lattis38/hanjar" class="btn md btn-primary">Data Hanjar</a>
             <a href="/lattis38/login.php" class="btn md btn-danger">Log Out</a>
 </body>

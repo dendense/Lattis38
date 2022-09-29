@@ -23,8 +23,15 @@
                 <input class="mb-2 w-100" type="text" name="jabatan" />
                 <label>KORP</label>
                 <input class="mb-2 w-100" type="text" name="korp" />
+                <label>Jenis Kelamin</label>
+                <input class="mb-2 w-100" type="text" name="jenis" />
+                <label>Agama</label>
+                <input class="mb-2 w-100" type="text" name="agama" />
+                <label>Alamat</label>
+                <input class="mb-2 w-100" type="text" name="alamat" />
                 <label>FOTO</label>
                 <input class="mb-2 w-100" type="file" name="foto" />
+
 
                 <input class="btn btn-primary mt-2 w-100" type="submit" value="Tambah">
 
