@@ -24,7 +24,10 @@
                 <label>KORP</label>
                 <input class="mb-2 w-100" type="text" name="korp" />
                 <label>Jenis Kelamin</label>
-                <input class="mb-2 w-100" type="text" name="jenis" />
+                <select type="text" name="jenis" class="mb-2 w-100">
+                    <option value="Laki Laki">Laki Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                </select>
                 <label>Agama</label>
                 <input class="mb-2 w-100" type="text" name="agama" />
                 <label>Alamat</label>

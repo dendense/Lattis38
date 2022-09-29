@@ -47,7 +47,7 @@
                 </table>
 
                 <div>
-                    <a href="datahjanjar.php" class="btn btn-success mt-2">Tambah Data</a>
+                    <a href="tambah_hanjar.php" class="btn btn-success mt-2">Tambah Data</a>
                     <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
                     <div>
     </body>

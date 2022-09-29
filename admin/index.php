@@ -23,7 +23,7 @@ if($_SESSION['roles']==""){
 
             <a href="/lattis38/siswa/data_siswa.php" class="btn md btn-primary">Data Siswa</a>
             <a href="/lattis38/antap/data_antap.php" class="btn md btn-primary">Data Antap</a>
-            <a href="/lattis38/hanjar" class="btn md btn-primary">Data Hanjar</a>
+            <a href="/lattis38/hanjar/data_hanjar.php" class="btn md btn-primary">Data Hanjar</a>
             <a href="/lattis38/login.php" class="btn md btn-danger">Log Out</a>
 </body>
 
