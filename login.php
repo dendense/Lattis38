@@ -3,6 +3,14 @@ include 'config.php';
 ?>
 
 <html>
+<?php 
+	session_start();
+
+	if($_SESSION['roles']==""){
+		header("location:login.php?pesan=gagal");
+	}
+ 
+	?>
 
 <head>
     <title>Login</title>

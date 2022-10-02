@@ -1,14 +1,14 @@
 <html>
 
 <head>
-    <title>Siswa</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>Antap</title>
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
 </head>
 
 <body>
     <div class="container">
         <div class="mt-5 rounded" style="width: 350px">
-            <div class="mb-3 h4">DATA SISWA SKADIK 501</div>
+            <div class="mb-3 h4">DATA ANTAP SKADIK 501</div>
 
             <style>
             table,
@@ -17,26 +17,25 @@
                 border: 2px solid black;
             }
             </style>
-            <table style="width:250%">
+            <table style="width:200%">
                 <tr>
                     <th>No</th>
                     <th>Nama</th>
                     <th>Pangkat</th>
                     <th>NRP</th>
-                    <th>Sekolah</th>
-                    <th>Jabatan</th>
                     <th>Korp</th>
                     <th>Action</th>
 
+
                 </tr>
                 <?php
-                    include '../config.php';
+                    include '../../config.php';
                     $no=0;
                     session_start();
-                    $query = mysqli_query($koneksi,"SELECT * FROM siswa");
-                    while($data = mysqli_fetch_array($query)){
+                    $query = mysqli_query($koneksi,"SELECT * FROM antap");
+                    while($data  = mysqli_fetch_array($query)){
                         $roleacc = mysqli_query($koneksi,"SELECT * FROM akun");
-                        $access = mysqli_fetch_array($roleacc);
+                        $access  = mysqli_fetch_array($roleacc);
                         $no++;
                 ?>
                 <tr>
@@ -44,21 +43,19 @@
                     <td><?php echo $data['nama']; ?></td>
                     <td><?php echo $data['pangkat']; ?></td>
                     <td><?php echo $data['nrp']; ?></td>
-                    <td><?php echo $data['sekolah']; ?></td>
-                    <td><?php echo $data['jabatan']; ?></td>
                     <td><?php echo $data['korp']; ?></td>
+
                     <td>
                         <?php 
                         if($access['roles'] = "admin"){?>
-                        <a href="" class="btn btn-sm btn-primary" style="margin-right: 5px; width: 80px">Edit</a>
-                        <a href="viewdata_siswa.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
+                        <a href="viewdata_antap.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
                             style="width: 80px">View</a>
 
                         <?php
                         }else{
                         ?>
 
-                        <a href="/lattis38/siswa/tampil_siswa.php" class="btn btn-sm btn-primary"
+                        <a href="/lattis38/user/antap/viewdata_antap.php" class="btn btn-sm btn-primary"
                             style="width: 80px">View</a>
                         <?php
                         }
@@ -70,8 +67,7 @@
                 ?>
             </table>
             <div>
-                <a href="tambah_siswa.php" class="btn btn-success mt-2">Tambah Data</a>
-                <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
+                <a href="../index.php" class="btn btn-primary mt-2">Beranda</a>
             </div>
 
 </body>

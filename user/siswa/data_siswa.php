@@ -2,7 +2,7 @@
 
 <head>
     <title>Siswa</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <link rel="stylesheet" href="../../css/bootstrap.min.css">
 </head>
 
 <body>
@@ -30,7 +30,7 @@
 
                 </tr>
                 <?php
-                    include '../config.php';
+                    include '../../config.php';
                     $no=0;
                     session_start();
                     $query = mysqli_query($koneksi,"SELECT * FROM siswa");
@@ -50,7 +50,6 @@
                     <td>
                         <?php 
                         if($access['roles'] = "admin"){?>
-                        <a href="" class="btn btn-sm btn-primary" style="margin-right: 5px; width: 80px">Edit</a>
                         <a href="viewdata_siswa.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
                             style="width: 80px">View</a>
 
@@ -70,8 +69,7 @@
                 ?>
             </table>
             <div>
-                <a href="tambah_siswa.php" class="btn btn-success mt-2">Tambah Data</a>
-                <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
+                <a href="../index.php" class="btn btn-primary mt-2">Beranda</a>
             </div>
 
 </body>

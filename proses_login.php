@@ -23,7 +23,7 @@
             }else if($data['roles']=="siswa"){
                 $_SESSION['username'] = $username;
 		        $_SESSION['roles'] = "siswa";
-                header("location:/lattis38/siswa/index.php");
+                header("location:/lattis38/user/index.php");
             }else{
                 header("location:index.php?pesan=gagal");
             }

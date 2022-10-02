@@ -1,9 +1,10 @@
 <DOCTYPE html>
     <html>
+    <?php  session_start(); ?>
 
     <head>
         <title>Login</title>
-        <link rel="stylesheet" href="../css/bootstrap.min.css">
+        <link rel="stylesheet" href="../../css/bootstrap.min.css">
         <link rel="stylesheet" href="style.css">
     </head>
 
@@ -28,13 +29,14 @@
                         <th>file</th>
                     </tr>
                     <?php
-                    include '../config.php';
+                    $no = 0;
+                    include '../../config.php';
                     $query = mysqli_query($koneksi,"SELECT * FROM hanjar");
                     while($data = mysqli_fetch_array($query)){
-                        
+                    $no++;    
 ?>
                     <tr>
-                        <td><?php echo $data['id'];?></td>
+                        <td><?php echo $no;?></td>
                         <td><?php echo $data['nokep']; ?></td>
                         <td><?php echo $data['namasekolah']; ?></td>
                         <td><?php echo $data['materi']; ?></td>
@@ -47,7 +49,7 @@
                 </table>
 
                 <div>
-                    <a href="tambah_hanjar.php" class="btn btn-success mt-2">Tambah Data</a>
-                    <a href="../admin/index.php" class="btn btn-primary mt-2">Beranda</a>
+                    <a href="../                                                                                                                                                                                                    index.php"
+                        class="btn btn-primary mt-2">Beranda</a>
                     <div>
     </body>
