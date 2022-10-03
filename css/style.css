@@ -10,7 +10,7 @@
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: rgb(8, 24, 244);
   text-shadow: none; /* Prevent inheritance from `body` */
 }
 
@@ -19,8 +19,8 @@
  */
 
 body {
-  text-shadow: 0 0.05rem 0.1rem rgba(0, 0, 0, 0.5);
-  box-shadow: inset 0 0 5rem rgba(0, 0, 0, 0.5);
+  text-shadow: 0 0.05rem 0.1rem rgba(61, 49, 82, 0.5);
+  box-shadow: inset 0 0 5rem rgba(32, 32, 91, 0.5);
 }
 
 .cover-container {
