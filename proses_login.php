@@ -8,8 +8,8 @@
     <?php
         session_start();
         include("config.php");
-        $username   = mysqli_real_escape_string($koneksi, $_POST['username']);
-        $password   = mysqli_real_escape_string($koneksi, md5($_POST['pass']));
+        $username   = $_POST['username'];
+        $password   = md5($_POST['pass']);
 
         $login  = mysqli_query($koneksi, "SELECT * FROM akun WHERE username = '$username' AND pass='$password'");
         $row    = mysqli_num_rows($login);

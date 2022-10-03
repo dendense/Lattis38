@@ -48,7 +48,8 @@
                     <td>
                         <?php 
                         if($access['roles'] = "admin"){?>
-                        <a href="" class="btn btn-sm btn-primary" style="margin-right: 5px; width: 80px">Edit</a>
+                        <a href="editantap.php" class="btn btn-sm btn-primary"
+                            style="margin-right: 5px; width: 80px">Edit</a>
                         <a href="viewdata_antap.php?nama=<?=$data['nama']?>" class="btn btn-sm btn-primary"
                             style="width: 80px">View</a>
 
