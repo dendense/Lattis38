@@ -39,25 +39,18 @@
 <body>
     <div class="container-fluid">
         <div class="row content">
-            <div class="col-sm-3 sidenav">
+            <div class="col-sm-3 sidenav p-3">
                 <h4>John's Blog</h4>
                 <ul class="nav nav-pills nav-stacked d-grid">
-                    <li><a href="#section1" class="btn btn-primary mb-1 w-100">Home</a></li>
+                    <li><a href="/lattis38/admin/" class="btn btn-primary mb-1 w-100">Home</a></li>
                     <li><a href="#section2" class="btn btn-primary mb-1 w-100">Friends</a></li>
                     <li><a href="#section3" class="btn btn-primary mb-1 w-100">Family</a></li>
                     <li><a href="#section3" class="btn btn-primary w-100">Photos</a></li>
                 </ul><br>
-                <div class="input-group">
-                    <input type="text" class="form-control" placeholder="Search Blog..">
-                    <span class="input-group-btn">
-                        <button class="btn btn-default" type="button">
-                            <span class="glyphicon glyphicon-search"></span>
-                        </button>
-                    </span>
-                </div>
+
             </div>
 
-            <div class="col-sm-9">
+            <div class="col-sm-9 p-3">
                 <h4><small>RECENT POSTS</small></h4>
                 <div class="mt-5 rounded" style="width: 350px">
                     <div class="mb-3 h4">DATA SISWA SKADIK 501</div>
@@ -130,9 +123,9 @@
             </div>
         </div>
 
-        <footer class="container-fluid">
+        <div class="">
             <p>Footer Text</p>
-        </footer>
+        </div>
 
 
 </body>
