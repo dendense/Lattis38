@@ -81,8 +81,7 @@ include 'config.php';
             </div>
 
             <button class="w-100 btn btn-lg btn-primary mb-1" type="submit">Sign in</button>
-            <a href="register.php" class="w-100 btn btn-lg btn-success mb-1" type="submit">Register</a>
-            <a href="/" class="w-100 btn btn-lg btn-secondary" type="submit">Back</a>
+            <a href="/lattis38/" class="w-100 btn btn-lg btn-secondary" type="submit">Back</a>
             <p class="mt-5 mb-3 text-muted">&copy; PDE38</p>
         </form>
     </main>
