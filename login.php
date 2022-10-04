@@ -1,5 +1,8 @@
 <?php
 include 'config.php';
+<<<<<<< HEAD
+if()
+=======
 session_start();
 if(isset($_SESSION['roles'])){
     if($_SESSION['roles'] == "admin"){
@@ -10,6 +13,7 @@ if(isset($_SESSION['roles'])){
         echo "Anda harus login untuk mengakses halaman admin";
     }
 }
+>>>>>>> 5b98584575f5db47a01375cad9e308e4712c4b49
 ?>
 
 <html>
