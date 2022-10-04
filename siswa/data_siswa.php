@@ -53,10 +53,7 @@
 
                 <style>
                 table,
-                th,
-                td {
-                    border: 2px solid black;
-                }
+                th
                 </style>
                 <table class="table table-striped">
 
