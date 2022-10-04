@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>CRUD PHP dan MySQLi - WWW.MALASNGODING.COM</title>
+    <title>EDIT DATA</title>
 </head>
 
 <body>
@@ -16,8 +16,8 @@
 
     <?php
 	include '../config.php';
-	$id = $_GET['nrp'];
-	$data = mysqli_query($koneksi,"select * from siswa where nrp='$nrp'");
+	$nrp = $_GET['nrp'];
+	$data = mysqli_query($koneksi,"SELECT * FROM siswa WHERE nrp='$nrp'");
 	while($d = mysqli_fetch_array($data)){
 		?>
     <form method="post" action="update.php">
