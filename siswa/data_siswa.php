@@ -102,7 +102,7 @@
                             <td>
                                 <?php 
                         if($access['roles'] = "admin"){?>
-                                <a href="editsiswa.php" class="btn btn-sm btn-primary"
+                                <a href="editsiswa.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
                                     style="margin-right: 5px; width: 80px">Edit</a>
                                 <a href="viewdata_siswa.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
                                     style="width: 80px">View</a>
