@@ -8,5 +8,5 @@
 
     if(!$koneksi){
         die("<script>alert('Gagal Tersambung Dengan Database')</script>");
-    }
+    }     
 ?>
