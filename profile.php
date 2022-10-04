@@ -21,7 +21,6 @@
 
             <ul>
 
-
                 <li><a href="https://www.instagram.com/skadik_501/?next=%2F">Instagram</a></li>
                 <li><span><a href=index.php>Home</a></span></li>
             </ul>
@@ -32,18 +31,15 @@
 
             <h1>Wing Pendidikan 500/Umum<br>Skadron Pendidikan 501</h1>
 
-
         </div>
 
     </div>
-
 
     <div id="jurusan">
 
         <h2>VISI & MISI</h2>
 
         <p>Menciptakan Prajurit Petarung Yang gagah,berani, dan berkarisma JASEDA MANTAPP</p>
-
 
         <div class="organisasi">
 
@@ -52,8 +48,6 @@
             <p>Struktur Organisasi Skadik 501</p>
 
             <div class="grid2">
-
-
 
                 <div class="struktur">
 
@@ -81,14 +75,13 @@
 
                 <div class="struktur">
 
-<<<<<<< HEAD
-                    <img src="img/logo_smk.png">
+                    <<<<<<< HEAD <img src="img/logo_smk.png">
 
-                    <h2>Kapten Sus Eni Budiarti</h2>
+                        <h2>Kapten Sus Eni Budiarti</h2>
 
-                    <p><b>Danflight B</b></p>
+                        <p><b>Danflight B</b></p>
 
-                    <p>Danflight B Sekadron Pendidikan 501</p>
+                        <p>Danflight B Sekadron Pendidikan 501</p>
 
                 </div>
 
@@ -103,7 +96,7 @@
                     <p>Danflight C Skadron Pendidikan 501</p>
 
                 </div>
-=======
+                =======
                 <div class="col">
                     <div class="card shadow-sm">
                         <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
@@ -113,7 +106,7 @@
                             <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
                                 dy=".3em">Thumbnail</text>
                         </svg>
->>>>>>> 02569a72320a061ded1ede5163303feef35de5bd
+                        >>>>>>> 02569a72320a061ded1ede5163303feef35de5bd
 
                         <div class="card-body">
                             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
@@ -160,8 +153,6 @@
                 <a href='#'>Instagram PDE 38</a>
 
             </div>
-
-
 
 </body>
 
