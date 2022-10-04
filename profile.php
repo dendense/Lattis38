@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Album example · Bootstrap v5.2</title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
     <style>
     .bd-placeholder-img {
         font-size: 1.125rem;
@@ -142,7 +143,11 @@
     </footer>
 
 
+<<<<<<< HEAD
     <script src="/js/bootstrap.min.js">
+=======
+    <script src="js/bootstrap.min.js">
+>>>>>>> 9970f98940f45663b7a7dbc217b3f644617fbedd
     </script>
 
 

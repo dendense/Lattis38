@@ -16,7 +16,7 @@
 	$data = mysqli_query($koneksi,"SELECT * FROM siswa WHERE nrp='$nrp'");
 	while($d = mysqli_fetch_array($data)){
 		?>
-    <form method="post" action="update.php">
+    <form method="POST" action="update.php">
         <div class="container" align="center">
             <table>
                 <h3>EDIT DATA MAHASISWA</h3>

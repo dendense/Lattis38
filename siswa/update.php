@@ -1,6 +1,6 @@
 <?php 
 // koneksi database
-include 'config.php';
+include '../config.php';
  
 // menangkap data yang di kirim dari form
 $id = $_POST['id'];
@@ -9,10 +9,13 @@ $pangkat = $_POST['pangkat'];
 $nrp = $_POST['nrp'];
  
 // update data ke database
-if (mysqli_query($koneksi,"UPDATE siswa SET nama='$nama', pangkat='$pangkat', nrp='$nrp' WHERE nrp='$nrp'");
-) 
+if (mysqli_query($koneksi,"UPDATE siswa SET nama='$nama', pangkat='$pangkat', nrp='$nrp' WHERE nrp='$nrp'")){
+    header("location:data_siswa.php");
+}else{
+    echo "<script>location='data_siswa.php';</script>";
+}
  
 // mengalihkan halaman kembali ke index.php
-header("location:data_siswa.php");
+
  
 ?>

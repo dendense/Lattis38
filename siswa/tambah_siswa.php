@@ -36,7 +36,8 @@
                 <input class="mb-2 w-100" type="file" name="foto" />
 
 
-                <input class="btn btn-primary mt-2 w-100" type="submit" value="Tambah">
+                <input class="btn btn-success mt-2 w-100" type="submit" value="Tambah">
+                <a href="data_siswa.php" class="btn btn-primary mt-2 w-100">Kembali</a>
 
             </form>
         </div>
