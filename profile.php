@@ -74,18 +74,14 @@
                 </div>
 
                 <div class="struktur">
-<<<<<<< HEAD
+
                     <img src="img/logo_smk.png">
-=======
 
-                    <<<<<<< HEAD <img src="img/logo_smk.png">
->>>>>>> 1c37ea4d00367e335534324d2bf79d0db787963f
+                    <h2>Kapten Sus Eni Budiarti</h2>
 
-                        <h2>Kapten Sus Eni Budiarti</h2>
+                    <p><b>Danflight B</b></p>
 
-                        <p><b>Danflight B</b></p>
-
-                        <p>Danflight B Sekadron Pendidikan 501</p>
+                    <p>Danflight B Sekadron Pendidikan 501</p>
 
                 </div>
 
@@ -100,66 +96,15 @@
                     <p>Danflight C Skadron Pendidikan 501</p>
 
                 </div>
-<<<<<<< HEAD
-=======
-                =======
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-                        >>>>>>> 02569a72320a061ded1ede5163303feef35de5bd
 
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
+
+                <div class="subscribe">
+
+                    <h1>Official PDE 38</h1>
+
+                    <a href=''>Instagram PDE 38</a>
+
                 </div>
-                <div class="col">
-                    <div class="card shadow-sm">
-                        <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                            xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                            preserveAspectRatio="xMidYMid slice" focusable="false">
-                            <title>Placeholder</title>
-                            <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                dy=".3em">Thumbnail</text>
-                        </svg>
-
-                        <div class="card-body">
-                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to
-                                additional content. This content is a little bit longer.</p>
-                            <div class="d-flex justify-content-between align-items-center">
-                                <div class="btn-group">
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                    <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                </div>
-                                <small class="text-muted">9 mins</small>
-                            </div>
-                        </div>
-                    </div>
-                </div>
->>>>>>> 1c37ea4d00367e335534324d2bf79d0db787963f
-            </div>
-
-            <div class="subscribe">
-
-                <h1>Official PDE 38</h1>
-
-                <a href='#'>Instagram PDE 38</a>
-
-            </div>
 
 </body>
 
