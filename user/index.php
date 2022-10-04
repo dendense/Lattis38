@@ -24,7 +24,7 @@ if($_SESSION['roles']==""){
             <a href="/lattis38/user/siswa/data_siswa.php" class="btn md btn-primary">Data Siswa</a>
             <a href="/lattis38/user/antap/data_antap.php" class="btn md btn-primary">Data Antap</a>
             <a href="/lattis38/user/hanjar/data_hanjar.php" class="btn md btn-primary">Data Hanjar</a>
-            <a href="/lattis38/login.php" class="btn md btn-danger">Log Out</a>
+            <a href="/lattis38/logout.php" class="btn md btn-danger">Log Out</a>
 </body>
 
 </html>
