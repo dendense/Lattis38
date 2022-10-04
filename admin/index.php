@@ -1,7 +1,11 @@
 <!DOCTYPE html>
 <html>
-
-
+<?php
+session_start();
+if($_SESSION['roles']==""){
+    header("location:../index.php?pesan=gagal");
+}
+?>
 
 <head>
     <meta charset="UTF-8">
