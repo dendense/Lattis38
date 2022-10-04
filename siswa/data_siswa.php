@@ -53,12 +53,10 @@
 
                 <style>
                 table,
-                th,
-                td {
-                    border: 2px solid black;
-                }
+                th
                 </style>
-                <table style="width:250%">
+                <table class="table table-striped">
+
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
