@@ -29,10 +29,14 @@
                     </tr>
                     <?php
                     include '../config.php';
+                    $no=0;
+                    session_start();
                     $query = mysqli_query($koneksi,"SELECT * FROM hanjar");
                     while($data = mysqli_fetch_array($query)){
-                        
-?>
+                        $roleacc = mysqli_query($koneksi,"SELECT * FROM akun");
+                        $access = mysqli_fetch_array($roleacc);
+                        $no++;
+                ?>
                     <tr>
                         <td><?php echo $data['id'];?></td>
                         <td><?php echo $data['nokep']; ?></td>

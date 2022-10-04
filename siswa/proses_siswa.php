@@ -12,6 +12,11 @@ $agama      = $_POST["agama"];
 $alamat     = $_POST["alamat"];
 
 $query_sql = " INSERT INTO siswa (foto, nama, pangkat, nrp, sekolah, jabatan, korp, jenis, agama, alamat) VALUES ('$foto', '$nama', '$pangkat', '$nrp', '$sekolah', '$jabatan', '$korp', '$jenis', '$agama', '$alamat')";
+$rand = rand();
+$ekstensi =  array('png','jpg','jpeg','gif');
+$filename = $_FILES['foto']['name'];
+$ukuran = $_FILES['foto']['size'];
+$ext = pathinfo($filename, PATHINFO_EXTENSION);
 
 if (mysqli_query($koneksi, $query_sql)){
       echo "<script>alert('siswa" , $nama ," berhasil ditambahkan didaftarkan')</script>";
