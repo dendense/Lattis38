@@ -141,13 +141,8 @@
                     href="/docs/5.2/getting-started/introduction/">getting started guide</a>.</p>
         </div>
     </footer>
-
-
-<<<<<<< HEAD
     <script src="/js/bootstrap.min.js">
-=======
-    <script src="js/bootstrap.min.js">
->>>>>>> 9970f98940f45663b7a7dbc217b3f644617fbedd
+
     </script>
 
 
