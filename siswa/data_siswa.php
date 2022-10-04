@@ -116,11 +116,6 @@
             </div>
         </div>
 
-        <div class="">
-            <p>Footer Text</p>
-        </div>
-
-
 </body>
 
 </html>

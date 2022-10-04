@@ -4,8 +4,7 @@
 <head>
     <title>EDIT DATA</title>
 </head>
-<?php if()
-?>
+
 <body>
 
     <link rel="stylesheet" href="../css/bootstrap.min.css">
