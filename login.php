@@ -1,5 +1,15 @@
 <?php
 include 'config.php';
+session_start();
+if(isset($_SESSION['roles'])){
+    if($_SESSION['roles'] == "admin"){
+        header("location:/lattis38/admin/index.php");
+    }else if($_SESSION['roles'] == "siswa"){
+        header("location:/lattis38/user/index.php");
+    }else{
+        echo "Anda harus login untuk mengakses halaman admin";
+    }
+}
 ?>
 
 <html>
