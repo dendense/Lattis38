@@ -72,9 +72,19 @@
                 <div class="row">
                     <div class="col-sm-8 col-md-7 py-4">
                         <h4 class="text-white">About</h4>
-                        <p class="text-muted">Add some information about the album below, the author, or any other
-                            background context. Make it a few sentences long so folks can pick up some informative
-                            tidbits. Then, link them off to some social networking sites or contact information.</p>
+                        <p class="text-muted">Skadron Pendidikan 501 disingkat (Skadik 501) adalah unsur pelaksana Wing
+                            Pendidikan Umum bertugas meyelenggarakan pendidikan kejuruan dan keterampilan untuk
+                            perwira, bintara dan tamtama serta PNS TNI AU. yang meliputi pendidikan perwira dasar
+                            kecabangan (Sarcab), Pendidikan Kursus Perwira (Suspa), Pendidikan Kualifikasi Khusus
+                            (Dikkualsus), Sekolah Kejuruan Bintara (Sejurba), Sekolah Dasar Tamtama (Sarta) Sekolah Alih
+                            Golongan (algol) PNS. pendidikan tersebut diharapkan dapat menambah pengetahuan akademis
+                            yang memadai dan keahlian yang profesional dalam bidang tugasnya dalam mengemban tugas
+                            dimasa mendatang. Skadron Pendidikan 501 Wingdikum semula bernama Sekolah Guru Militer
+                            (Segumil) yang bertempat di Lanud Halim Perdanakusuma, Jakarta. Pada tahun 2000-an Sekolah
+                            Guru Militer diubah namanya menjadi Skadron Pendidikan 501 sejalan dengan reorganisasi
+                            Wingdikum. Selanjutnya untuk lebih mengoptimalkan fungsi dan tugasnya dalam melaksanakan
+                            pendidikan maka pada tahun 2004 Skadron Pendidikan 501 Wingdikum dipindahkan dari Lanud
+                            Halim Perdanakusuma, Jakarta ke Lanud Atang Sendjaja, Bogor</p>
                     </div>
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4 class="text-white">Contact</h4>
