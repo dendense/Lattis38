@@ -19,7 +19,7 @@
     <form method="POST" action="update.php">
         <div class="container" align="center">
             <table>
-                <h3>EDIT DATA MAHASISWA</h3>
+                <h3>EDIT DATA SISWA</h3>
                 <tr>
                     <td>Nama</td>
                     <td>
@@ -34,6 +34,37 @@
                 <tr>
                     <td>NRP</td>
                     <td><input type="text" name="nrp" value="<?php echo $d['nrp']; ?>"></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>Sekolah</td>
+                    <td>
+                        <input type="text" name="sekolah" value="<?php echo $d['sekolah']; ?>">
+                    </td>
+                </tr>
+                <tr>
+                    <td>Jabatan</td>
+                    <td><input type="text" name="jabatan" value="<?php echo $d['jabatan']; ?>"></td>
+                </tr>
+                <tr>
+                    <td>Korp</td>
+                    <td><input type="text" name="korp" value="<?php echo $d['korp']; ?>"></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><select type="text" name="jenis" class="w-100">
+                            <option value="Laki Laki">Laki Laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td><input type="text" name="agama" value="<?php echo $d['agama']; ?>"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>"></td>
                 </tr>
                 <tr>
                     <td></td>

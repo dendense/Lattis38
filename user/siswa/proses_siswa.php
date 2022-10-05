@@ -1,5 +1,5 @@
 <?php
-include '../config.php';
+include '../../config.php';
 $foto       = $_POST["foto"];
 $nama       = $_POST["nama"];
 $pangkat    = $_POST["pangkat"];

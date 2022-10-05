@@ -36,6 +36,30 @@
                     <td><input type="text" name="nrp" value="<?php echo $d['nrp']; ?>"></td>
                 </tr>
                 <tr>
+                    <td>Jabatan</td>
+                    <td><input type="text" name="jabatan" value="<?php echo $d['jabatan']; ?>"></td>
+                </tr>
+                <tr>
+                    <td>Korp</td>
+                    <td><input type="text" name="korp" value="<?php echo $d['korp']; ?>"></td>
+                </tr>
+                <tr>
+                <tr>
+                    <td>Jenis Kelamin</td>
+                    <td><select type="text" name="jenis" class="w-100">
+                            <option value="Pria">Pria</option>
+                            <option value="Wanita">Wanita</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td><input type="text" name="agama" value="<?php echo $d['agama']; ?>"></td>
+                </tr>
+                <tr>
+                    <td>Alamat</td>
+                    <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>"></td>
+                </tr>
+                <tr>
                     <td></td>
                     <td><input type="submit" value="SIMPAN"></td>
                 </tr>

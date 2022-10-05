@@ -54,18 +54,18 @@
                     <h4>DATA HANJAR</h4>
                     <style>
                     table,
-                    th,
-                    td {
-                        border: 2px solid black;
-                    }
+                    th
                     </style>
-                    <table style="width:350%; height:50%">
+                    <table class="table table-striped">
+
                         <tr>
                             <th>No</th>
                             <th>Nomor Kep</th>
                             <th>Nama Sekolah</th>
                             <th>Materi</th>
                             <th>file</th>
+                            <th>Download</th>
+
                         </tr>
                         <?php
                     include '../config.php';
@@ -83,6 +83,7 @@
                             <td><?php echo $data['namasekolah']; ?></td>
                             <td><?php echo $data['materi']; ?></td>
                             <td><?php echo $data['file']; ?></td>
+                            <td><a href="download.php?file=<?=$data['file']?>">Download</a></td>
                         </tr>
                         <?php
                     }

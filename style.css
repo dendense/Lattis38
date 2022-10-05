@@ -6,11 +6,11 @@ body {font-family: Arial, Helvetica, sans-serif; margin: 0; font-weight: lighter
 .menu ul{list-style: none;display: inline-flex; float: right; padding-right: 80px; padding-top: 20px;}
 .menu ul li{padding-right: 20px; }
 .menu ul li a {text-decoration: none; cursor: pointer; color: white;}
-.menu ul li a:hover {color: #1CAAE9;}
+.menu ul li a:hover {color: #000000;}
 .text { text-align: right; padding-right: 90px;padding-top: 230px; color: white; font-weight: lighter;}
 .text h1 {font-size: 40px;}
 .text p {font-size: 25px;}
-.text span {background: #1CAAE9; border-radius: 50px; padding: 15px; }
+.text span {background: #080808; border-radius: 50px; padding: 15px; }
 .text span a{text-decoration: none; color: white; border: 1px solid transparent; padding-top: 20px;}
 #jurusan { padding-top: 50px; text-align: center; }
 #jurusan h2 h3 p {font-weight: lighter; }
