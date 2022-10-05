@@ -50,11 +50,6 @@
 
             <div class="col-sm-10 p-3">
                 <h4>DATA SISWA SEJURBA PDE A-38</h4>
-
-                <style>
-                table,
-                th
-                </style>
                 <table class="table table-striped">
 
                     <tr>
