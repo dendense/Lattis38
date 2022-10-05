@@ -22,11 +22,12 @@
                 </style>
                 <table style="width:350%; height:50%">
                     <tr>
-                        <th>No</th>
+                        <th>Nomor</th>
                         <th>Nomor Kep</th>
                         <th>Nama Sekolah</th>
                         <th>Materi</th>
                         <th>file</th>
+
                     </tr>
                     <?php
                     $no = 0;

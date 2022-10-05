@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Album example · Bootstrap v5.2</title>
+    <title>SKADIK 501 ACTIVITIES</title>
 
     <link href="css/bootstrap.min.css" rel="stylesheet" />
 
@@ -79,9 +79,8 @@
                     <div class="col-sm-4 offset-md-1 py-4">
                         <h4 class="text-white">Contact</h4>
                         <ul class="list-unstyled">
-                            <li><a href="#" class="text-white">Follow on Twitter</a></li>
-                            <li><a href="#" class="text-white">Like on Facebook</a></li>
-                            <li><a href="#" class="text-white">Email me</a></li>
+                            <li><a href="www.instagram.com/skadik_501" class="text-white">Follow on Instagram</a></li>
+                            <li><a href="www.skadik501@gmail.com" class="text-white">Email me</a></li>
                         </ul>
                     </div>
                 </div>
@@ -96,7 +95,7 @@
                         <path d="M23 19a2 2 0 0 1-2 2H3a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h4l2-3h6l2 3h4a2 2 0 0 1 2 2z" />
                         <circle cx="12" cy="13" r="4" />
                     </svg>
-                    <strong>Skadik 501 Activities</strong>
+                    <strong>SKADIK 501 ACTIVITIES</strong>
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarHeader"
                     aria-controls="navbarHeader" aria-expanded="false" aria-label="Toggle navigation">
@@ -111,22 +110,21 @@
         <section class="py-5 text-center container">
             <div class="row py-lg-5">
                 <div class="col-lg-6 col-md-8 mx-auto">
-                    <h1 class="fw-light">Skadik 501</h1>
-                    <p class="lead text-muted">Kumpulan Kegiatan Yang Ada Di Skadik 501</p>
+                    <h1 class="fw-dark">Skadik 501</h1>
+                    <h1 class="lead text-dark">Kumpulan Kegiatan Yang Ada Di Skadik 501</h1>
                 </div>
             </div>
         </section>
         <div class="album py-5 bg-light">
             <div class="container">
-
                 <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="images/apelpagi.jpg" />
+                            <img src="images/apelpagi.jpg" width="420" height="420" />
                             <div class="card-body">
                                 <h1 class="card-text">APEL GABUNGAN</h1>
-                                <p class="card-text"> Kegiatan Apel Pagi Siswa Dan Antap Skadik 501 Secara Bersama Yang
-                                    dinamakan Apel Gabungan Yang Dilaksanakan Setiap Hari Senin Dan Kamis</p>
+                                <p class="card-text"> Kegiatan Apel Pagi Siswa Dan Antap Skadik 501 Yang
+                                    Dilaksanakan Setiap Hari Senin Dan Kamis</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
                                     </div>
@@ -137,16 +135,13 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <img src="images/apellorong.jpg" />
+                            <img src="images/apellorong.jpg" width="420" height="420" />
                             <div class="card-body">
                                 <h1 class="card-text">APEL LORONG</h1>
                                 <p class=" card-text">Kegiatan Apel Lorong Siswa Skadik 501 Yang Dilaksanakan Setiap
-                                    Hari
-                                    Rabu.</p>
+                                    Hari Rabu</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-
                                     </div>
                                     <small class="text-muted">Hari Rabu</small>
                                 </div>
@@ -155,23 +150,15 @@
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-
+                            <img src="images/apelnormal.jpg" width="420" height="420" />
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h1 class="card-text">APEL PAGI</h1>
+                                <p class="card-text">Kegiatan Apel Pagi Khusus Siswa Skadik 501 Yang Dilaksanakan Setiap
+                                    Hari Kamis Dan Jumat </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted">Hari Kamis Dan Jumat </small>
                                 </div>
                             </div>
                         </div>
@@ -179,69 +166,43 @@
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-
+                            <img src="images/apelkelas.jpg" width="420" height="420" />
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h1 class="card-text">APEL KELAS</h1>
+                                <p class="card-text">Kegiatan Apel Kelas yang Dilaksanakan DI Kelas Masing Masing</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted">Hari Selasa</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-
+                            <img src="images/larisiang.jpg" width="420" height="420" />
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h1 class="card-text">Olahraga Siang</h1>
+                                <p class="card-text">Kegiatan Olahraga Siswa Skadik 501 Yang Dilaksanakan Di Siang Hari
+                                </p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted">Hari Senin Dan Rabu</small>
                                 </div>
                             </div>
                         </div>
                     </div>
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-
+                            <img src="images/senam.jpg" width="420" height="420" />
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h1 class="card-text">Senam </h1>
+                                <p class="card-text">Kegiatan Senam Yang Dilaksanakan Oleh Para Siswa Skadik 501</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted">Hari Selasa Dan Jumat</small>
                                 </div>
                             </div>
                         </div>
@@ -249,87 +210,30 @@
 
                     <div class="col">
                         <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
-
+                            <img src="images/yasinan.jpg" width="420" height="420" />
                             <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
+                                <h1 class="card-text">Yasinan</h1>
+                                <p class="card-text">Kegiatan Yasinan Atau Doa Bersama Siswa Skadik 501 Yang Beragama
+                                    Muslim</p>
                                 <div class="d-flex justify-content-between align-items-center">
                                     <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
                                     </div>
-                                    <small class="text-muted">9 mins</small>
+                                    <small class="text-muted">Hari Kamis</small>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
 
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col">
-                        <div class="card shadow-sm">
-                            <svg class="bd-placeholder-img card-img-top" width="100%" height="225"
-                                xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Thumbnail"
-                                preserveAspectRatio="xMidYMid slice" focusable="false">
-                                <title>Placeholder</title>
-                                <rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef"
-                                    dy=".3em">Thumbnail</text>
-                            </svg>
 
-                            <div class="card-body">
-                                <p class="card-text">This is a wider card with supporting text below as a natural
-                                    lead-in to additional content. This content is a little bit longer.</p>
-                                <div class="d-flex justify-content-between align-items-center">
-                                    <div class="btn-group">
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">View</button>
-                                        <button type="button" class="btn btn-sm btn-outline-secondary">Edit</button>
-                                    </div>
-                                    <small class="text-muted">9 mins</small>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
 
     </main>
 
-    <footer class="text-muted py-5">
+    <footer class=" text-muted py-5">
         <div class="container">
             <p class="float-end mb-1">
-                <a href="#">Back to top</a>
+                <a href="#" class="btn md btn-primary">Back to top</a>
             </p>
-            <p class="mb-1">Album example is &copy; Bootstrap, but please download and customize it for yourself!</p>
-            <p class="mb-0">New to Bootstrap? <a href="/">Visit the homepage</a> or read our <a
-                    href="/docs/5.2/getting-started/introduction/">getting started guide</a>.</p>
+            <p class="mb-1">Copyright 2022 Skadik501</p>
         </div>
     </footer>
 

@@ -49,23 +49,21 @@
             </div>
 
             <div class="col-sm-10 p-3">
-                <h4>DATA SISWA SEJURBA PDE A-38</h4>
+                <h4>DATA ANTAP</h4>
                 <style>
                 table,
-                th,
-                td {
-                    border: 2px solid black;
-                }
+                th
                 </style>
-                <table style="width:200%">
+                <table class="table table-striped">
+
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
                         <th>Pangkat</th>
                         <th>NRP</th>
+                        <th>Jabatan</th>
                         <th>Korp</th>
                         <th>Action</th>
-
 
                     </tr>
                     <?php
@@ -83,8 +81,8 @@
                         <td><?php echo $data['nama']; ?></td>
                         <td><?php echo $data['pangkat']; ?></td>
                         <td><?php echo $data['nrp']; ?></td>
+                        <td><?php echo $data['jabatan']; ?></td>
                         <td><?php echo $data['korp']; ?></td>
-
                         <td>
                             <?php 
                         if($access['roles'] = "admin"){?>

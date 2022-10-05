@@ -78,7 +78,7 @@ if(isset($_SESSION['roles'])){
 
     <main class="form-signin w-100 m-auto">
         <form action="proses_login.php" method="post">
-            <img class="mb-4" src="images/logoskadik.png" alt="skadik501" width="72">
+            <img class="mb-4" src="images/logoskadik.png" alt="skadik501" width="120">
             <h1 class="h3 mb-3 fw-normal">Login Untuk Akses Halaman</h1>
 
             <div class="form-floating">

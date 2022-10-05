@@ -60,7 +60,8 @@
         </tr>
         <tr>
             <td> <img src="<?php echo $result['foto']?>" /></td>
-            <td>: <?php echo $result['foto']?></td>
+            <td>: <img src="imageView.php?foto=<?php echo $result["foto"]; ?>" /><br />
+                <?php echo $result['foto']?></td>
         </tr>
         <tr height="40">
             <td></td>
