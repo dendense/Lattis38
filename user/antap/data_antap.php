@@ -1,7 +1,7 @@
 <html>
 
 <head>
-    <title>ANTAP</title>
+    <title>Siswa</title>
     <link rel="stylesheet" href="../../css/bootstrap.min.css">
     <style>
     /* Set height of the grid so .sidenav can be 100% (adjust if needed) */
@@ -39,22 +39,11 @@
 <body>
     <div class="container-fluid">
         <div class="row content">
-            <div class="col-sm-2 sidenav p-3">
-                <h4>DATA ANTAP</h4>
-                <ul class="nav nav-pills nav-stacked d-grid">
-                    <li><a href="/lattis38/user/" class="btn btn-primary mb-1 w-100">Home</a></li>
-                </ul><br>
-
-            </div>
-
             <div class="col-sm-10 p-3">
-                <h4>DATA ANTAP</h4>
-                <style>
-                table,
-                th
-                </style>
+                <div style="margin-bottom: 1rem">
+                    DATA SISWA
+                </div>
                 <table class="table table-striped">
-
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
@@ -63,7 +52,6 @@
                         <th>Jabatan</th>
                         <th>Korp</th>
                         <th>Action</th>
-
                     </tr>
                     <?php
                     include '../../config.php';
@@ -84,26 +72,29 @@
                         <td><?php echo $data['korp']; ?></td>
                         <td>
                             <?php 
-                        if($access['roles'] = "user"){?>
-                            <a href="/lattis38/user/antap/viewdata_antap.php?nama=<?=$data['nama']?>"
-                                class="btn btn-sm btn-primary" style="width: 80px">View</a>
+                                    if($access['roles'] = "admin"){?>
+
+                            <a href="viewdata_antap.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
+                                style="width: 80px">View</a>
 
                             <?php
-                        }else{
-                        ?>
-
+                                }else{
+                                ?>
                             <a href="/lattis38/antap/tampil_antap.php" class="btn btn-sm btn-primary"
                                 style="width: 80px">View</a>
                             <?php
-                        }
-                        ?>
+                                }
+                                ?>
                         </td>
                     </tr>
                     <?php
-                }
-                ?>
+                        }
+                        ?>
                 </table>
-
+            </div>
+        </div>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sidebar.js"></script>
 </body>
 
 </html>

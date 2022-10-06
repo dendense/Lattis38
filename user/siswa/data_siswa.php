@@ -39,23 +39,11 @@
 <body>
     <div class="container-fluid">
         <div class="row content">
-            <div class="col-sm-2 sidenav p-3">
-                <h4>DATA SISWA</h4>
-                <ul class="nav nav-pills nav-stacked d-grid">
-                    <li><a href="/lattis38/admin/" class="btn btn-primary mb-1 w-100">Home</a></li>
-                </ul><br>
-
-            </div>
-
             <div class="col-sm-10 p-3">
-                <h4>DATA SISWA SEJURBA PDE A-38</h4>
-
-                <style>
-                table,
-                th
-                </style>
+                <div style="margin-bottom: 1rem">
+                    DATA SISWA
+                </div>
                 <table class="table table-striped">
-
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
@@ -65,7 +53,6 @@
                         <th>Jabatan</th>
                         <th>Korp</th>
                         <th>Action</th>
-
                     </tr>
                     <?php
                     include '../../config.php';
@@ -76,7 +63,7 @@
                         $roleacc = mysqli_query($koneksi,"SELECT * FROM akun");
                         $access = mysqli_fetch_array($roleacc);
                         $no++;
-                    ?>
+                ?>
                     <tr>
                         <td><?php echo $no;?></td>
                         <td><?php echo $data['nama']; ?></td>
@@ -87,28 +74,29 @@
                         <td><?php echo $data['korp']; ?></td>
                         <td>
                             <?php 
-                        if($access['roles'] = "user"){?>
-                            <a href="/lattis38/user/siswa/viewdata_siswa.php?nrp=<?=$data['nama']?>"
-                                class="btn btn-sm btn-primary" style="width: 80px">View</a>
-                            <?php
-                        }else{
-                        ?>
+                                    if($access['roles'] = "admin"){?>
 
+                            <a href="viewdata_siswa.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
+                                style="width: 80px">View</a>
+
+                            <?php
+                                }else{
+                                ?>
                             <a href="/lattis38/siswa/tampil_siswa.php" class="btn btn-sm btn-primary"
                                 style="width: 80px">View</a>
                             <?php
-                        }
-                        ?>
+                                }
+                                ?>
                         </td>
                     </tr>
                     <?php
-                }
-                ?>
+                        }
+                        ?>
                 </table>
-
             </div>
         </div>
-
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sidebar.js"></script>
 </body>
 
 </html>

@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <h2 style="text-align: center;">Tambah Data Hanjar</h2>
-        <form action="proses_siswa.php" method="post" enctype="multipart/form-data">
+        <form action="proses_hanjar.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label>Nokep :</label>
                 <input type="text" class="form-control" name="nokep" required="required">
@@ -26,7 +26,7 @@
             </div>
             <div class="form-group">
                 <label>File :</label>
-                <input type="file" name="file" required="required">
+                <input type="file" name="fi" required="required">
                 <p style="color: red">Ekstensi yang diperbolehkan .png | .jpg | .jpeg | .gif | .doc | .pdf</p>
             </div>
             <input type="submit" name="" value="Simpan" class="btn btn-primary">

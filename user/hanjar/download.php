@@ -2,7 +2,7 @@
     if (isset($_GET['file'])) {
     $file    = $_GET['file'];
 
-    $back_dir    ="images/";
+    $back_dir    ="nss/";
     $file = $back_dir.$_GET['file'];
      
         if (file_exists($file)) {

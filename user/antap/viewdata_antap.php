@@ -1,18 +1,18 @@
 <?php
-    if(isset($_GET['nama'])){
-        $nama    =$_GET['nama'];
+    if(isset($_GET['nrp'])){
+        $nrp    =$_GET['nrp'];
     }
     else {
         die ("Error. No ID Selected!");    
     }
     include "../../config.php";
-    $query     =mysqli_query($koneksi, "SELECT * FROM antap WHERE nama='$nama'");
+    $query     =mysqli_query($koneksi, "SELECT * FROM antap WHERE nrp='$nrp'");
     $result    =mysqli_fetch_array($query);
 ?>
 <html>
 
 <head>
-    <title>View Antap <?php echo $nama?></title>
+    <title>View Antap <?php echo $nrp?></title>
 </head>
 
 <body>
@@ -54,9 +54,9 @@
             <td>Alamat</td>
             <td>: <?php echo $result['alamat']?></td>
         </tr>
-        <td><img src="<?php echo $result['foto']?>"></td>
-        <td><?php echo $result['foto']?></td>
-        <?php echo '<img src="'.base64_decode( $result['foto'] ).'"/>'; ?>
+        <tr>
+            <td><img src="/antap/gambar/<?php echo $result['foto'] ?>" width="80" height="100"></td>
+        </tr>
         <tr height="40">
             <td></td>
             <td> <a href="data_antap.php">Kembali</a></td>

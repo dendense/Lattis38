@@ -70,8 +70,8 @@
                         <td><?php echo $data['nokep']; ?></td>
                         <td><?php echo $data['namasekolah']; ?></td>
                         <td><?php echo $data['materi']; ?></td>
-                        <td><?php echo $data['file']; ?></td>
-                        <td><a href="download.php?file='<?php $data['file']; ?>'">Download</a>
+                        <td><?php echo $data['folder']; ?></td>
+                        <td><a href="nss/<?php echo $data['folder']; ?>">Download</a>
                         <td>
 
                             <?php

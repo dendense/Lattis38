@@ -1,18 +1,18 @@
 <?php
-    if(isset($_GET['nama'])){
-        $nama = $_GET['nama'];
+    if(isset($_GET['nrp'])){
+        $nrp    =$_GET['nrp'];
     }
     else {
         die ("Error. No ID Selected!");    
     }
     include "../../config.php";
-    $query     =mysqli_query ($koneksi, "SELECT * FROM siswa WHERE nama='$nama'");
-    $result    =mysqli_fetch_array ($query);
+    $query     =mysqli_query($koneksi, "SELECT * FROM siswa WHERE nrp='$nrp'");
+    $result    =mysqli_fetch_array($query);
 ?>
 <html>
 
 <head>
-    <title>View Siswa <?php echo $nama?></title>
+    <title>View Siswa <?php echo $nrp?></title>
 </head>
 
 <body>
@@ -59,11 +59,9 @@
             <td>: <?php echo $result['alamat']?></td>
         </tr>
         <tr>
-            <!-- <td> <img src="<?php echo $result['foto']?>" /></td> -->
-            <!-- <td>: <?php echo $result['foto']?></td>  -->
-            <?php echo '<img src="'.base64_decode( $result['foto'] ).'"/>'; ?>
+            <td><img src="/siswa/gambar/<?php echo $result['foto'] ?>" width="80" height="100"></td>
         </tr>
-        <tr height="40">
+        <tr width="50" height="40">
             <td></td>
             <td> <a href="data_siswa.php">Kembali</a></td>
         </tr>
