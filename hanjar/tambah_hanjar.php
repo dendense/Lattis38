@@ -1,29 +1,38 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
 
 <head>
-    <title>Register</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <title>hanjar</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 </head>
 
 <body>
-    <div class="container" align="center">
-        <div class="mt-5 rounded" style="width: 300px">
-            <h1>Tambah Data</h1>
-            <form method="post" action="proses_hanjar.php">
-                <label>Nokep</label>
-                <input class="mb-2 w-100" type="text" name="nokep" />
-                <label>Nama Sekolah</label>
-                <input class="mb-2 w-100" type="text" name="namasekolah" />
-                <label>Materi</label>
-                <input class="mb-2 w-100" type="text" name="materi" />
-                <label>File</label>
-                <input class="mb-2 w-100" type="file" name="file" />
-                <input class="btn btn-primary mt-2 w-100" type="submit" value="Tambah">
-
-            </form>
-        </div>
+    <div class="container">
+        <h2 style="text-align: center;">Tambah Data Hanjar</h2>
+        <form action="proses_siswa.php" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label>Nokep :</label>
+                <input type="text" class="form-control" name="nokep" required="required">
+            </div>
+            <div class="form-group">
+                <label>Nama Sekolah:</label>
+                <input type="text" class="form-control" name="namasekolah" required="required">
+            </div>
+            <div class="form-group">
+                <label>Materi :</label>
+                <input type="text" class="form-control" name="materi" required="required">
+            </div>
+            <div class="form-group">
+                <label>File :</label>
+                <input type="file" name="file" required="required">
+                <p style="color: red">Ekstensi yang diperbolehkan .png | .jpg | .jpeg | .gif | .doc | .pdf</p>
+            </div>
+            <input type="submit" name="" value="Simpan" class="btn btn-primary">
+        </form>
     </div>
+
 </body>
 
 </html>
