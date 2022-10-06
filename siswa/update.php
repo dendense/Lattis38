@@ -13,6 +13,12 @@ $korp = $_POST['korp'];
 $jenis = $_POST['jenis'];
 $agama = $_POST['agama'];
 $alamat = $_POST['alamat'];
+
+$rand = rand();
+$ekstensi =  array('png','jpg','jpeg','gif');
+$filename = $_FILES['foto']['name'];
+$ukuran = $_FILES['foto']['size'];
+$ext = pathinfo($filename, PATHINFO_EXTENSION);
  
 // update data ke database
 if (mysqli_query($koneksi,"UPDATE siswa SET nama='$nama', pangkat='$pangkat', nrp='$nrp' , sekolah='$sekolah', jabatan='$jabatan' , korp='$korp', jenis='$jenis' , agama='$agama', alamat='$alamat' WHERE nrp='$nrp'")){

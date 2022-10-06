@@ -9,16 +9,17 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="side bar-heading border-bottom bg-light">SKADIK 501</div>
+            <div class="sidebar-heading border-bottom bg-light h">SKADIK 501</div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="data_antap.php">Data
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="data_antap.php"
+                    target="iframe_a">Data
                     Antap Skadik
                     501</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3"
-                    href="siswa/data_siswa.php">Data Siswa Skadik
+                    href="../siswa/data_siswa.php" target="iframe_a">Data Siswa Skadik
                     501</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3"
-                    href="hanjar/data_hanjar.php">Data Bahan
+                    href="hanjar/data_hanjar.php" target="iframe_a">Data Bahan
                     Ajar</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3"
                     href="/lattis38/login.php">LogOut</a>

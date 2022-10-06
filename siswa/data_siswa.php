@@ -39,20 +39,11 @@
 <body>
     <div class="container-fluid">
         <div class="row content">
-            <div class="col-sm-2 sidenav p-3">
-                <h4>DATA ANTAP</h4>
-                <ul class="nav nav-pills nav-stacked d-grid">
-                    <li><a href="/lattis38/admin/" class="btn btn-primary mb-1 w-100">Home</a></li>
-                    <li><a href="tambah_siswa.php" class="btn btn-success mb-1 w-100">Tambah Data</a></li>
-                </ul><br>
-            </div>
-
             <div class="col-sm-10 p-3">
-                <h4>DATA SISWA</h4>
-                <style>
-                table,
-                th
-                </style>
+                <div style="margin-bottom: 1rem">
+                    DATA SISWA<a href="tambah_siswa.php" class="btn btn-success btn-sm" style="margin-left: 10px">Tambah
+                        Data</a>
+                </div>
                 <table class="table table-striped">
                     <tr>
                         <th>No</th>
