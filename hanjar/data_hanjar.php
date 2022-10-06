@@ -9,6 +9,8 @@
         height: 1500px
     }
 
+
+
     /* Set gray background color and 100% height */
     .sidenav {
         background-color: #f1f1f1;
