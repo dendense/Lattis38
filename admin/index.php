@@ -9,7 +9,7 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="bar-heading border-bottom bg-light">SKADIK 501</div>
+            <div class="sidebar-heading border-bottom bg-light">SKADIK 501</div>
             <div class="list-group list-group-flush">
                 <a class="list-group-item list-group-item-action list-group-item-light p-3"
                     href="../antap/data_antap.php" target="iframe_a">Data
@@ -27,12 +27,11 @@
 
         </div>
         <!-- Page Wrapper-->
-        <div id=" page-content-wrapper">
+        <div id="page-content-wrapper">
 
             <!-- Top navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <div class="container-fluid">
-
                     <button class="btn btn-primary" id="sidebarToggle">Menu</button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -58,7 +57,7 @@
             </nav>
             <!-- Page content-->
             <div class="container-fluid">
-                <iframe class="container-fluid" src="welcome.php" style="height:90%;width:100%" name="iframe_a"
+                <iframe class="container-fluid w-100 h-100" src="welcome.php" name="iframe_a"
                     title="Iframe Example"></iframe>
             </div>
         </div>
