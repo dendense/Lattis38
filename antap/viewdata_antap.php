@@ -1,12 +1,12 @@
 <?php
-    if(isset($_GET['nama'])){
-        $nama    =$_GET['nama'];
+    if(isset($_GET['nrp'])){
+        $nrp    =$_GET['nrp'];
     }
     else {
         die ("Error. No ID Selected!");    
     }
     include "../config.php";
-    $query     =mysqli_query($koneksi, "SELECT * FROM antap WHERE nama='$nama'");
+    $query     =mysqli_query($koneksi, "SELECT * FROM antap WHERE nrp='$nrp'");
     $result    =mysqli_fetch_array($query);
 ?>
 <html>

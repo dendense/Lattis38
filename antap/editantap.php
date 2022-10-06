@@ -19,7 +19,7 @@
     <form method="POST" action="update.php">
         <div class="container" align="center">
             <table>
-                <h3>EDIT DATA ANTAP</h3>
+                <h3>EDIT DATA SISWA</h3>
                 <tr>
                     <td>Nama</td>
                     <td>
@@ -47,8 +47,8 @@
                 <tr>
                     <td>Jenis Kelamin</td>
                     <td><select type="text" name="jenis" class="w-100">
-                            <option value="Pria">Pria</option>
-                            <option value="Wanita">Wanita</option>
+                            <option value="Laki Laki">Laki Laki</option>
+                            <option value="Perempuan">Perempuan</option>
                         </select></td>
                 </tr>
                 <tr>
@@ -59,13 +59,11 @@
                     <td>Alamat</td>
                     <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>"></td>
                 </tr>
-                <tr>
-                    <td>Foto</td>
-                    <td> <input class="mb-2 w-100" type="file" name="foto" /></td>
-                </tr>
+                <td><label>FOTO</label></td>
+                <td><input class="mb-2 w-100" type="file" name="foto" /></td>
                 <tr>
                     <td></td>
-                    <td><input type="submit" value="SIMPAN" class="btn btn-primary mt-2 w-20"></td>
+                    <td><input type="submit" value="SIMPAN"></td>
                 </tr>
             </table>
         </div>
