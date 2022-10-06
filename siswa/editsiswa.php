@@ -66,6 +66,8 @@
                     <td>Alamat</td>
                     <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>"></td>
                 </tr>
+                <td><label>FOTO</label></td>
+                <td><input class="mb-2 w-100" type="file" name="foto" /></td>
                 <tr>
                     <td></td>
                     <td><input type="submit" value="SIMPAN"></td>

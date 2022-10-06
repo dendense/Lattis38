@@ -63,7 +63,7 @@
             <td>: <img src="imageView.php?foto=<?php echo $result["foto"]; ?>" /><br />
                 <?php echo $result['foto']?></td>
         </tr>
-        <tr height="40">
+        <tr width="50" height="40">
             <td></td>
             <td> <a href="data_siswa.php">Kembali</a></td>
         </tr>

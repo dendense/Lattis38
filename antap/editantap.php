@@ -60,8 +60,12 @@
                     <td><input type="text" name="alamat" value="<?php echo $d['alamat']; ?>"></td>
                 </tr>
                 <tr>
+                    <td>Foto</td>
+                    <td> <input class="mb-2 w-100" type="file" name="foto" /></td>
+                </tr>
+                <tr>
                     <td></td>
-                    <td><input type="submit" value="SIMPAN"></td>
+                    <td><input type="submit" value="SIMPAN" class="btn btn-primary mt-2 w-20"></td>
                 </tr>
             </table>
         </div>

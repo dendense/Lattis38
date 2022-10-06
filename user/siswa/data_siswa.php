@@ -90,7 +90,6 @@
                         if($access['roles'] = "user"){?>
                             <a href="/lattis38/user/siswa/viewdata_siswa.php?nrp=<?=$data['nama']?>"
                                 class="btn btn-sm btn-primary" style="width: 80px">View</a>
-
                             <?php
                         }else{
                         ?>

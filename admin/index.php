@@ -9,25 +9,29 @@
     <div class="d-flex" id="wrapper">
         <!-- Sidebar-->
         <div class="border-end bg-white" id="sidebar-wrapper">
-            <div class="sidebar-heading border-bottom bg-light">SKADIK 501</div>
+            <div class="side bar-heading border-bottom bg-light">SKADIK 501</div>
             <div class="list-group list-group-flush">
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="data_antap.php!">Data
+                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="data_antap.php">Data
                     Antap Skadik
                     501</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Data Siswa Skadik
+                <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                    href="siswa/data_siswa.php">Data Siswa Skadik
                     501</a>
-                <a class="list-group-item list-group-item-action list-group-item-light p-3" href="#!">Data Bahan
+                <a class="list-group-item list-group-item-action list-group-item-light p-3"
+                    href="hanjar/data_hanjar.php">Data Bahan
                     Ajar</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3"
-                    href="/lattis38/login.php">Log
-                    Out</a>
+                    href="/lattis38/login.php">LogOut</a>
             </div>
+
         </div>
         <!-- Page Wrapper-->
         <div id="page-content-wrapper">
+
             <!-- Top navigation-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light border-bottom">
                 <div class="container-fluid">
+
                     <button class="btn btn-primary" id="sidebarToggle">Menu</button>
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                         data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
@@ -53,7 +57,8 @@
             </nav>
             <!-- Page content-->
             <div class="container-fluid">
-
+                <iframe class="container-fluid" src="welcome.php" style="height:90%;width:100%" name="iframe_a"
+                    title="Iframe Example"></iframe>
             </div>
         </div>
         <script src="../js/bootstrap.min.js"></script>
