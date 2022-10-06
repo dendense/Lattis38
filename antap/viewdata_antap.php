@@ -55,9 +55,7 @@
             <td>: <?php echo $result['alamat']?></td>
         </tr>
         <tr>
-            <td> <img src="<?php echo $result['foto']?>" /></td>
-            <td>: <?php echo $result['foto']?></td>
-
+            <td><img src="gambar/<?php echo $result['foto'] ?>" width="80" height="100"></td>
         </tr>
         <tr height="40">
             <td></td>

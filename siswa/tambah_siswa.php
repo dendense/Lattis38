@@ -10,7 +10,7 @@
 
 <body>
     <div class="container">
-        <h2 style="text-align: center;">Tambah Data Pegawai</h2>
+        <h2 style="text-align: center;">Tambah Data Siswa</h2>
         <form action="proses_siswa.php" method="post" enctype="multipart/form-data">
             <div class="form-group">
                 <label>Nama :</label>
@@ -36,9 +36,12 @@
                 <label>Korp :</label>
                 <input type="text" class="form-control" name="korp" required="required">
             </div>
-            <div class="form-group">
-                <label>Jenis Kelamin :</label>
-                <input type="text" class="form-control" name="jenis" required="required">
+            <div>
+                Jenis Kelamin
+                <select type="text" name="jenis" class="w-100">
+                    <option value="Pria">Pria</option>
+                    <option value="Wanita">Wanita</option>
+                </select>
             </div>
             <div class="form-group">
                 <label>Agama :</label>
