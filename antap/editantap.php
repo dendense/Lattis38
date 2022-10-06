@@ -47,8 +47,8 @@
                 <tr>
                     <td>Jenis Kelamin</td>
                     <td><select type="text" name="jenis" class="w-100">
-                            <option value="Laki Laki">Laki Laki</option>
-                            <option value="Perempuan">Perempuan</option>
+                            <option value="Laki Laki">Pria</option>
+                            <option value="Perempuan">Wanita</option>
                         </select></td>
                 </tr>
                 <tr>

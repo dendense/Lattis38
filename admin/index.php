@@ -22,7 +22,7 @@
                     href="../hanjar/data_hanjar.php" target="iframe_a">Data Bahan
                     Ajar</a>
                 <a class="list-group-item list-group-item-action list-group-item-light p-3"
-                    href="/lattis38/login.php">LogOut</a>
+                    href="/lattis38/logout.php">LogOut</a>
             </div>
 
         </div>
