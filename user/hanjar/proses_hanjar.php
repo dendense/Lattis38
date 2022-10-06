@@ -16,7 +16,7 @@ if(!in_array($ext,$ekstensi) ) {
 }else{
 	if($ukuran < 1044070){		
 		$xx = $rand.'_'.$filename;
-		move_uploaded_file($_FILES['foto']['tmp_name'], 'gambar/'.$rand.'_'.$filename);
+		move_uploaded_file($_FILES['nss']['tmp_name'], 'nss/'.$rand.'_'.$filename);
 		mysqli_query($koneksi, "INSERT INTO siswa (nama, pangkat, nrp, sekolah, jabatan, korp, jenis, agama, alamat, foto) VALUES ('$nama','$pangkat','$nrp','$sekolah','$jabatan','$korp','$jenis','$agama','$alamat', '$xx')");
 		header("location:data_siswa.php?alert=berhasil");
 	}else{
