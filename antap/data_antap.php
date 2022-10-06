@@ -45,7 +45,6 @@
                         Data</a>
                 </div>
                 <table class="table table-striped">
-
                     <tr>
                         <th>No</th>
                         <th>Nama</th>
@@ -54,7 +53,6 @@
                         <th>Jabatan</th>
                         <th>Korp</th>
                         <th>Action</th>
-
                     </tr>
                     <?php
                     include '../config.php';
@@ -75,28 +73,30 @@
                         <td><?php echo $data['korp']; ?></td>
                         <td>
                             <?php 
-                        if($access['roles'] = "admin"){?>
+                                    if($access['roles'] = "admin"){?>
                             <a href="editantap.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
                                 style="margin-right: 5px; width: 80px">Edit</a>
-                            <a href="viewdata_antap.php?nama=<?=$data['nama']?>" class="btn btn-sm btn-primary"
+                            <a href="viewdata_antap.php?nrp=<?=$data['nrp']?>" class="btn btn-sm btn-primary"
                                 style="width: 80px">View</a>
 
                             <?php
-                        }else{
-                        ?>
-
+                                }else{
+                                ?>
                             <a href="/lattis38/antap/tampil_antap.php" class="btn btn-sm btn-primary"
                                 style="width: 80px">View</a>
                             <?php
-                        }
-                        ?>
+                                }
+                                ?>
                         </td>
                     </tr>
                     <?php
-                }
-                ?>
+                        }
+                        ?>
                 </table>
-
+            </div>
+        </div>
+        <script src="../js/bootstrap.min.js"></script>
+        <script src="../js/sidebar.js"></script>
 </body>
 
 </html>
